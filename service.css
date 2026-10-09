@@ -1,0 +1,182 @@
+/* SERVICE PAGE HEADER */
+
+.service-header {
+    text-align: center;
+    padding: 60px 50px 25px 50px;
+}
+
+.service-header p {
+    font-size: 18px;
+}
+
+
+/* FILTER BUTTONS */
+
+.filter-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    margin-bottom: 40px;
+}
+
+.filter-button {
+    background-color: #FFFDF8;
+    color: #6B584D;
+
+    border: 1px solid #E6D8C8;
+    border-radius: 20px;
+
+    padding: 10px 22px;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.active-filter {
+    background-color: #3F281D;
+    color: white;
+}
+
+.filter-button:hover {
+    background-color: #3F281D;
+    color: white;
+}
+
+
+/* SERVICE CONTAINER */
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    padding: 0 50px 70px 50px;
+}
+
+
+/* SERVICE CARD */
+
+.service-card {
+    width: 22%;
+
+    background-color: #FFFDF8;
+
+    border: 1px solid #E6D8C8;
+    border-radius: 15px;
+
+    overflow: hidden;
+}
+
+
+/* SERVICE IMAGES */
+
+.service-card img {
+    width: 100%;
+    height: 200px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* INDIVIDUAL IMAGE POSITION */
+
+.basic-bath-image {
+    object-position: center 30%;
+}
+
+.full-grooming-image {
+    object-position: center 35%;
+}
+
+.hair-trimming-image {
+    object-position: center 35%;
+}
+
+.nail-clipping-image {
+    object-position: center 50%;
+}
+
+.ear-cleaning-image {
+    object-position: center 40%;
+}
+
+.dental-cleaning-image {
+    object-position: center 45%;
+}
+
+.deshedding-image {
+    object-position: center 35%;
+}
+
+.spa-treatment-image {
+    object-position: center 40%;
+}
+
+
+/* SERVICE CARD CONTENT */
+
+.service-card-content {
+    padding: 20px;
+}
+
+
+/* TITLE AND PRICE */
+
+.service-title-row {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.service-title-row h2 {
+    color: #3F281D;
+
+    font-size: 20px;
+
+    margin: 0;
+}
+
+.service-title-row h3 {
+    color: #B52A2A;
+
+    font-size: 20px;
+
+    margin: 0;
+}
+
+
+/* PET CATEGORY TAG */
+
+.pet-tag {
+    display: inline-block;
+
+    background-color: #F6EEE3;
+    color: #6B584D;
+
+    border-radius: 15px;
+
+    padding: 5px 10px;
+
+    margin-top: 12px;
+    margin-right: 5px;
+
+    font-size: 13px;
+}
+
+
+/* DESCRIPTION */
+
+.service-card p {
+    line-height: 1.5;
+
+    margin-top: 15px;
+}

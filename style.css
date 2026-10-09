@@ -1,0 +1,179 @@
+/* GENERAL STYLES */
+
+html, body {
+    background-color: #F6EEE3;
+    color: #6B584D;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* TITLES */
+
+.page-title {
+    color: #3F281D;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+}
+
+.section-title {
+    color: #3F281D;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+}
+
+
+/* CARD CONTAINERS */
+
+.card {
+    background-color: #FFFDF8;
+    border: 1px solid #E6D8C8;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+/* INTERACTIVE BUTTONS */
+
+.button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.button-brown {
+    background-color: brown;
+    color: white;
+}
+
+.button-white {
+    background-color: white;
+    color: brown;
+    border: 1px solid brown;
+}
+
+
+/* NORMAL BODY TEXT */
+
+.normal-text {
+    color: #6B584D;
+}
+
+
+/* NAVIGATION BAR */
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFDF9;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-title a {
+    color: #3F281D;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.nav-links a {
+    color: #6B584D;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+<<<<<<< HEAD
+    color: #8A5A3B;
+}
+
+/*Booking Page*/
+
+.booking-page {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.booking-form {
+    margin-top: 25px;
+}
+
+.booking-form .section-title {
+    margin-top: 0;
+}
+
+/*Form Fields*/
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #E6D8C8;
+    border-radius: 8px;
+    background-color: #FFFDF8;
+    color: #3F281D;
+    font: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: 2px solid #8A5A3B;
+    outline-offset: 2px;
+}
+=======
+    color: #B52A2A;
+}
+
+.nav-image-logo img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+
+/* NORMAL SECTIONS */
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+>>>>>>> 257a7a94fdbf0f5182bb264e4dfaa2979033e43a

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Booking | Paws &amp; Whiskers</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<<<<<<< HEAD
+    <!-- Shared navigation -->
+    <nav class="navbar" aria-label="Main navigation">
+        <div class="nav-logo">
+            <a href="index.html">Paws &amp; Whiskers</a>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="service.html">Services</a>
+            <a href="packages.html">Packages</a>
+            <a href="groomers.html">Groomers</a>
+            <a href="booking.html" aria-current="page">Booking</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+=======
+    <nav class="navbar">
+
+            <div class="nav-brand">
+                <div class="nav-image-logo">
+                    <img src="Paws & Whiskers.png" alt="Paws & Whiskers Logo">
+                </div>
+
+                <div class="nav-title">
+                    <a href="index.html">Paws & Whiskers</a>
+                </div>
+            </div>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="service.html">Services</a>
+                <a href="packages.html">Packages</a>
+                <a href="groomers.html">Groomers</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <a href="booking.html" class="button button-brown">Book Now</a>
+
+        </nav>
+>>>>>>> 257a7a94fdbf0f5182bb264e4dfaa2979033e43a
+
+    <main class="booking-page">
+        <h1 class="page-title">Book an Appointment</h1>
+
+        <p class="normal-text">
+            Schedule a grooming session for your beloved pet.
+        </p>
+
+        <form class="card booking-form" aria-describedby="booking-note">
+            <h2 class="section-title">Appointment Details</h2>
+
+            <p id="booking-note" class="normal-text">
+                All fields are required. This is a practice form;
+                no appointment will be reserved or sent yet.
+            </p>
+
+            <!-- Owner name -->
+            <div class="form-group">
+                <label for="owner-name">Owner Name</label>
+                <input
+                    type="text"
+                    id="owner-name"
+                    name="owner-name"
+                    autocomplete="name"
+                    required
+                >
+            </div>
+
+            <!-- Contact phone -->
+            <div class="form-group">
+                <label for="phone">Contact Phone</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    autocomplete="tel"
+                    required
+                >
+            </div>
+
+            <!-- Pet type -->
+            <div class="form-group">
+                <label for="pet-type">Pet Type</label>
+                <select id="pet-type" name="pet-type" required>
+                    <option value="">Choose a pet type</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="rabbit">Rabbit</option>
+                </select>
+            </div>
+
+            <!-- Pet name -->
+            <div class="form-group">
+                <label for="pet-name">Pet Name</label>
+                <input
+                    type="text"
+                    id="pet-name"
+                    name="pet-name"
+                    required
+                >
+            </div>
+
+            <!-- Package -->
+            <div class="form-group">
+                <label for="package">Selected Package</label>
+                <select id="package" name="package" required>
+                    <option value="">Choose a package</option>
+                    <option value="bronze">Bronze Package</option>
+                    <option value="silver">Silver Package</option>
+                    <option value="gold">Gold Package</option>
+                </select>
+            </div>
+
+            <!-- Preferred date -->
+            <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <!-- Preferred time -->
+            <div class="form-group">
+                <label for="time">Preferred Time</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+
+            <!-- Visual-only button for now -->
+            <button type="button" class="button">
+                Book Appointment
+            </button>
+        </form>
+    </main>
+
+</body>
+</html>

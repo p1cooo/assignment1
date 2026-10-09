@@ -1,0 +1,190 @@
+/* PACKAGE PAGE HEADER */
+
+.package-header {
+    text-align: center;
+    padding: 60px 50px 30px 50px;
+}
+
+.package-header p {
+    font-size: 18px;
+}
+
+
+/* PACKAGE CONTAINER */
+
+.package-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+
+    padding: 30px 50px 70px 50px;
+}
+
+
+/* PACKAGE CARDS */
+
+.package-card {
+    width: 30%;
+
+    background-color: #FFFDF8;
+    border: 1px solid #E6D8C8;
+    border-radius: 15px;
+
+    padding: 30px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+
+/* PACKAGE IMAGES */
+
+.package-card img {
+    width: 100%;
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+    display: block;
+
+    margin-bottom: 20px;
+}
+
+.package-image-bronze {
+    object-position: center 20%;
+}
+
+.package-image-silver {
+    object-position: center 25%;
+}
+
+.package-image-gold {
+    object-position: center 30%;
+}
+
+
+/* PACKAGE TEXT */
+
+.package-card h2 {
+    color: #3F281D;
+    font-size: 26px;
+
+    margin: 5px 0 10px 0;
+}
+
+.package-card h1 {
+    color: brown;
+    font-size: 40px;
+
+    margin: 10px 0;
+}
+
+.package-card h3 {
+    color: #6B584D;
+
+    margin: 10px 0 20px 0;
+}
+
+
+/* PACKAGE LIST */
+
+.package-card ul {
+    list-style: none;
+
+    padding: 0;
+    margin: 0 0 25px 0;
+
+    text-align: left;
+}
+
+.package-card li {
+    margin-bottom: 10px;
+    padding-left: 25px;
+
+    position: relative;
+}
+
+.package-card li::before {
+    content: "✓";
+
+    color: brown;
+    font-weight: bold;
+
+    position: absolute;
+    left: 0;
+}
+
+
+/* PACKAGE BUTTON */
+
+.package-card .button {
+    margin-top: auto;
+    align-self: center;
+}
+
+
+/* MOST POPULAR PACKAGE */
+
+.package-popular {
+    border: 2px solid brown;
+}
+
+.popular-label {
+    background-color: brown;
+    color: white;
+
+    padding: 7px 18px;
+    border-radius: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    position: absolute;
+    top: 15px;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+
+/* COMPARISON SECTION */
+
+.comparison-section {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+
+/* COMPARISON TABLE */
+
+.table-container {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FFFDF8;
+}
+
+th,
+td {
+    border: 1px solid #E6D8C8;
+    padding: 15px;
+}
+
+th {
+    background-color: #3F281D;
+    color: white;
+}
+
+td:first-child {
+    text-align: left;
+    font-weight: bold;
+}
